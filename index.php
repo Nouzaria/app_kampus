@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Utama</title>
+    <title>Main Menu</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -34,12 +34,11 @@
     </style>
 </head>
 <body>
-
     <div class="menu">
-        <h1>Menu Utama</h1>
-        <a href="mahasiswa.php?page=mahasiswa">Data Mahasiswa</a>
-        <a href="matkul.php?page=matkul">Data Mata Kuliah</a>
-        <a href="dosen.php?page=dosen">Data Dosen</a>
+        <h1>Main Menu</h1>
+        <a href="students.php?page=students">Students Database</a>
+        <a href="courses.php?page=courses">Courses Database</a>
+        <a href="lecturers.php?page=lecturers">Lecturers Database</a>
     </div>
 
 </body>
